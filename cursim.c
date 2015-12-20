@@ -37,10 +37,10 @@ static void finish(int sig);
 
 int main(int argc, char *argv[])
 {
-	int num = 0;
+//	int num = 0;
 	int row=0;
 	int col=0;
-	int mycolor=0;
+//	int mycolor=0;
 	int colorchance=10;
 	int letter=0;
 	int count=0;
@@ -90,7 +90,7 @@ int main(int argc, char *argv[])
 	curs_set(0);
         addstr("ncurses test!  ");
         for (count=0; count < 500000; count++) {
-//                napms(50);
+                napms(1);
                 move(1,0);
                 printw("row = %d col = %d", row, col);
                 row = rand()%20+2;
@@ -99,11 +99,11 @@ int main(int argc, char *argv[])
                 switch (selector) {
                         case 0: letter='.';
                         break;
-                        case 1: letter='-';
+                        case 1: letter=' ';
                         break;
                         case 2: letter='+';
                         break;
-                        case 3: letter='=';
+                        case 3: letter=' ';
                         break;
                         case 4: letter='*';
                         break;
@@ -127,6 +127,7 @@ int main(int argc, char *argv[])
         getch();
 
 	finish(0);               /* we're done */
+	return 0;
 }
 
 static void finish(int sig)
