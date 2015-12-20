@@ -1,4 +1,4 @@
-// curtemplate.c -- basic ncurses template
+// nct.c -- basic ncurses template
 // copyright 2015 robert holder, MIT license
 // https://github.com/rdholder/cursim
 
