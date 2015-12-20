@@ -2,4 +2,4 @@
 
 This is just a fun little repo for playing around with simple ncurses programs over ssh for fun stuff.  Did I mention it's supposed to be fun?  FUN I SAY!
 
-okay that's enough.
+We are working from Dan Gookin's book "Programmer's Guide to nCurses", available on Amazon, et. al.  We want to write some fun simulations including critter sims, economic sims, and whatever else we can think of, focusing on game & sim logic and not having to spend a lot of time on learning a bunch of graphics stuff that we suck at anyways.
