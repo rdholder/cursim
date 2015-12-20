@@ -1,13 +1,13 @@
 // cursim1.c -- an ncurses learning sandbox
-// copyright 2015 inhabited.systems, MIT license
-// github.com/inhabited.systems/cursim1
+// copyright 2015 robert holder, MIT license
+// https://github.com/rdholder/cursim
 
-#include <stdio.h>
 #include <stdlib.h>
 #include <ncurses.h>
 #include <time.h>
 #include <math.h>
 
+// DESIGN NOTES:
 // typical gameplay characters
 // - = ; ' , . / : " < > ? ` ~ ! @ # $ % ^ & * ( ) _ +
 // @ player
