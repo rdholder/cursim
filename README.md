@@ -17,4 +17,6 @@ TO INSTALL ON UBUNTU (from the command line):
 + gcc -Wall -o cursim cursim.c -lncurses
 + cursim
 
+[github clone help](https://help.github.com/articles/cloning-a-repository/).
+
 TODO: REMEMBER TO VERIFY THESE INSTRUCTIONS
