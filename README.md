@@ -9,12 +9,12 @@ We are working from Dan Gookin's book "Programmer's Guide to nCurses", available
 QUICKREF
 
 TO INSTALL ON UBUNTU (from the command line):
-sudo apt-get install git libncurses-dev
-mkdir cursim
-cd cursim
-git init
-git clone https://github.com/rdholder/cursim.git
-gcc -Wall -o cursim cursim.c -lncurses
-cursim
++ sudo apt-get install build-essential git libncurses-dev
++ mkdir cursim
++ cd cursim
++ git init
++ git clone https://github.com/rdholder/cursim.git
++ gcc -Wall -o cursim cursim.c -lncurses
++ cursim
 
 TODO: REMEMBER TO VERIFY THESE INSTRUCTIONS
