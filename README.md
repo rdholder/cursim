@@ -12,7 +12,6 @@ TO INSTALL ON UBUNTU (from the command line):
 + sudo apt-get install build-essential git libncurses-dev
 + mkdir cursim
 + cd cursim
-+ git init
 + git clone https://github.com/rdholder/cursim.git
 + gcc -Wall -o cursim cursim.c -lncurses
 + cursim
